@@ -1,0 +1,6 @@
+>> alt+z - word wrap
+>>cmd+option+i - inspect
+>> git init(initialize empty repo)
+>> git remote add origin (copy ssh here)
+>>git remote add origin git@github.com:sjuveria/exampleRepo.git
+
