@@ -1,6 +1,17 @@
 >> alt+z - word wrap
 >>cmd+option+i - inspect
+
+
+# add git code
+
 >> git init(initialize empty repo)
 >> git remote add origin (copy ssh here)
 >>git remote add origin git@github.com:sjuveria/exampleRepo.git
+>>git remote remove origin(if you want to remove origin)
+
+>>-----if update anything write this-----
+>>git add .
+>> git comit -m 'any message here'
+>>git push origin master
+>>---------------------------------------
 
