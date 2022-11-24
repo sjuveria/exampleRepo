@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title> 
+    <link rel = "icon" href ="quoteicon.png"  type = "image/x-icon">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <!--
+    <h1>Quote generator</h1>
+    <h1><i class="fa-brands fa-github"></i></h1> -->
+
+    <div class="code-container" id="code-container" >
+        <div class="quote-container" id="quote-container">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span id="quote"></span>
+           
+    <!--
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+    -->
+        </div>
+        <div class="author" id="author">
+        </div>
+        <div class="buttondiv" id="buttondiv">
+            <button class="btntwitter" id="btntwitter" title="tweet this quote.">
+                <!--<i class="fa-brands fa-square-twitter"></i>
+                --><i class="fa-brands fa-twitter"></i>
+            </button>
+            <button class="btnnew" id="btnnew" title="show new quote."> New quote</button>
+        </div>
+    </div>
+
+    <div class="loader" id="loader" hidden="true"></div>
+    <!-- script-->
+    <script src="script.js"></script>
+</body>     
+</html>
